@@ -13,7 +13,15 @@ db();
 
 const app = express();
 
-app.use(cors());
+const corsoptions= {
+    origin:
+        process.env.NODE_ENV === "production"
+        ? process.env.CLIENT
+        : "http://localhost:3000"
+}
+
+
+app.use(cors(corsoptions));
 app.use(express.json()); // handle body object from requests
 
 app.use("/users", userRoutes);
