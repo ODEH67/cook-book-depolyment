@@ -1,0 +1,386 @@
+{"recipes":[
+    {"id":"1011",
+    "category": "Dinner",
+    "title":"Creamy Sweet Potato {Soup}",
+    "description":"Sweet potato soup balances the sweet and savory with onions, garlic, onions, and leeks, along with a bit of nutmeg and cinnamon. Creamy and satisfying!",
+    "preporation_time": "50 min",
+    "serving": "6 to 8 servings",
+    "image":"url 1",
+    "owner": "6494f67d5f2bc0eec97b9adf",
+    "ingredients":[
+        {"ingredient": "butter",
+        "quantity" : "2 table spoons"
+        },
+        {"ingredient": "medium onion, chopped",
+        "quantity" : "1 (about 1 cup)"
+        },
+        {"ingredient": "celery ribs, chopped",
+        "quantity" : "2"
+        },
+        {"ingredient": "medium leek, white and light green parts only, sliced",
+        "quantity" : "1"
+        },
+        {"ingredient": "clove garlic, chopped",
+        "quantity" : "1 (1 teaspoon)"
+        },
+        {"ingredient": "orange-flesh sweet potatoes, peeled, cut into 1-inch pieces (about 5 cups)",
+        "quantity" : "1 1/2 pounds (about 2 large)"
+        },
+        {"ingredient": "chicken stock, store bought or homemade",
+        "quantity" : "4 cups"
+        },
+        {"ingredient": "cinnamon stick",
+        "quantity" : "1"
+        },
+        {"ingredient": "ground nutmeg",
+        "quantity" : "1/4 teaspoon"
+        },
+        {"ingredient": "heavy cream",
+        "quantity" : "1/4 cup"
+        },
+        {"ingredient": "milk",
+        "quantity" : "3/4 cup"
+        },
+        {"ingredient": "Salt",
+        "quantity" : "to taste"
+        },
+        {"ingredient": "Pepper",
+        "quantity" : "to taste"
+        },
+        {"ingredient": "sour cream or plain yogurt",
+        "quantity" : "1/4 cup"
+        }
+        ]
+},
+
+{"id":"1010",
+"category": "Lunch",
+"title":"Singapore {Noodles} with Shrimp",
+"description":"Leave the take-out menu in the drawer and make easy Singapore Noodles with Shrimp at home. This easy noodle stir-fry comes together in about 30 minutes",
+"preporation_time": "30 min",
+"serving": "4 servings",
+"image":"url 2",
+"owner": "6494f67d5f2bc0eec97b9adf",
+"ingredients": [
+        {
+            "ingredient": "sesame oil",
+            "quantity": "2 tea spoons"
+        },
+        {
+            "ingredient": "soy sauce",
+            "quantity": "2 tablespoons or more to taste"
+        },
+        {
+            "ingredient": "seasoned rice vinegar",
+            "quantity": "2 tablespoons"
+        },
+        {
+            "ingredient": "Asian rice sticks or rice vermicelli noodles",
+            "quantity": "6 ounces"
+        },
+        {
+            "ingredient": "eggs",
+            "quantity": "2 large"
+        },
+        {
+            "ingredient": "peanut or canola oil",
+            "quantity": "3 tablespoons"
+        },
+        {
+            "ingredient": "minced ginger",
+            "quantity": "2 tablespoons"
+        },
+        {
+            "ingredient": "garlic, finely chopped",
+            "quantity": "1 clove"
+        },
+        {
+            "ingredient": "carrots, shredded",
+            "quantity": "2"
+        },
+        {
+            "ingredient": "jalapeño pepper, cored and thinly sliced",
+            "quantity": "1"
+        },
+        {
+            "ingredient": "sweet onion, thinly sliced",
+            "quantity": "1/2"
+        },
+        {
+            "ingredient": "Salt",
+            "quantity": "1/2 teaspoon or more to taste"
+        },
+        {
+            "ingredient": "flavorful baked ham, cut into thin 2-inch strips",
+            "quantity": "4 ounces"
+        },
+        {
+            "ingredient": "napa cabbage (1/2 pound), thinly sliced",
+            "quantity": "1/2 "
+        },
+        {
+            "ingredient": "scallions, green and white parts cut into 1-inch lengths",
+            "quantity": "4"
+        },
+        {
+            "ingredient": "red bell pepper, cored, seeded, and cut into 2-inch-thin strips",
+            "quantity": "1/2 "
+        },
+        {
+            "ingredient": "curry powder",
+            "quantity": "2 teaspoons"
+        },
+        {
+            "ingredient": "shrimp, peeled and deveined",
+            "quantity": "1/2 pound"
+        },
+        {
+            "ingredient": "cilantro leaves, for garnish",
+            "quantity": "2 tablespoons"
+        }
+    ]
+},
+
+{"id":"1015",
+"category": "Sweets",
+"title":"Vegan {Brownies}",
+"description":"These rich and fudgy vegan brownies are so good, you’ll never miss the eggs or dairy! This is also a gluten-free brownie recipe for those looking for gluten-free dessert options. The best part? You only need one bowl to make them!",
+"preporation_time": "45",
+"serving": "16",
+"image":"url 3",
+"owner": "6494f67d5f2bc0eec97b9adf",
+    "ingredients": [
+        {
+            "ingredient": "coconut oil, at room temperature",
+            "quantity": "1/2 cup plus more for the pan"
+        },
+        {
+            "ingredient": "ground flax",
+            "quantity": "3 tablespoons"
+        },
+        {
+            "ingredient": "gluten-free flour blend",
+            "quantity": "1 cup (148g)"
+        },
+        {
+            "ingredient": "dairy-free cocoa powder",
+            "quantity": "1/2 cup (40g)"
+        },
+        {
+            "ingredient": "baking powder",
+            "quantity": "1 teaspoon"
+        },
+        {
+            "ingredient": "kosher salt",
+            "quantity": "1/2 teaspoon"
+        },
+        {
+            "ingredient": "bittersweet dairy-free chocolate, chopped",
+            "quantity": "5 ounces (140g)"
+        },
+        {
+            "ingredient": "sugar",
+            "quantity": "1 1/2 cups (300g)"
+        },
+        {
+            "ingredient": "pure vanilla extract",
+            "quantity": "1 tablespoon"
+        }
+    ]
+
+},
+
+{"id":"1014",
+"category": "Dinner",
+"title":"The Creamiest Vegan {Pasta}",
+"description":"This easy weeknight pasta uses raw cashews and a secret ingredient to create the most luscious and creamy sauce—no one would think it’s vegan",
+"preporation_time": "33",
+"serving": "5",
+"image":"url 4",
+"owner": "6494f67d5f2bc0eec97b9adf",
+    "ingredients": [
+        {
+            "ingredient": "unsalted raw cashews",
+            "quantity": "3/4 cup"
+        },
+        {
+            "ingredient": "Yukon gold potato, chopped into 1-inch pieces",
+            "quantity": "1 small or 1/2 medium"
+        },
+        {
+            "ingredient": "nutritional yeast",
+            "quantity": "1/3 cup"
+        },
+        {
+            "ingredient": "garlic, crushed",
+            "quantity": "3 cloves"
+        },
+        {
+            "ingredient": "plain almond milk, unsweetened",
+            "quantity": "1 cup"
+        },
+        {
+            "ingredient": "salt",
+            "quantity": "1/2 teaspoon plus more to taste"
+        },
+        {
+            "ingredient": "black pepper",
+            "quantity": "1/4 teaspoon plus more to taste"
+        },
+        {
+            "ingredient": "white miso",
+            "quantity": "2 teaspoons"
+        },
+        {
+            "ingredient": "water, divided",
+            "quantity": "4 1/2 cups"
+        },
+        {
+            "ingredient": "dry fettuccine pasta",
+            "quantity": "1 pound"
+        },
+        {
+            "ingredient": "chopped parsley (optional)",
+            "quantity": "1/4 cup"
+        }
+    ]
+
+},
+
+{"id":"1013",
+"category": "Dinner",
+"title":"Heart-Shaped Pepperoni {Pizza}",
+"description":"Make a heart-shaped pepperoni pizza—complete with pepperoni hearts—for a festive Valentine’s Day or any pizza night with people you love",
+"preporation_time": "25",
+"serving": "2",
+"image":"url 5",
+"owner": "6494f67d5f2bc0eec97b9adf",
+    "ingredients": [
+        {
+            "ingredient": "can tomato sauce",
+            "quantity": "1 (15-ounce)"
+        },
+        {
+            "ingredient": "extra virgin olive oil",
+            "quantity": "1 tablespoon"
+        },
+        {
+            "ingredient": "kosher salt",
+            "quantity": "1 teaspoon"
+        },
+        {
+            "ingredient": "dried basil",
+            "quantity": "1 teaspoon"
+        },
+        {
+            "ingredient": "dried oregano",
+            "quantity": "1 teaspoon"
+        },
+        {
+            "ingredient": "garlic powder",
+            "quantity": "1 teaspoon"
+        },
+        {
+            "ingredient": "red pepper flakes",
+            "quantity": "1/2 teaspoon"
+        },
+        {
+            "ingredient": "fully risen pizza dough",
+            "quantity": "1 pound"
+        },
+        {
+            "ingredient": "flour",
+            "quantity": "for dusting the counter"
+        },
+        {
+            "ingredient": "pepperoni slices",
+            "quantity": "10-12 large-diameter (about 1 1/2 inches)"
+        },
+        {
+            "ingredient": "low-moisture mozzarella, shredded",
+            "quantity": "12 ounces (about 3 cups)"
+        },
+        {
+            "ingredient": "fresh basil leaves",
+            "quantity": "for garnish"
+        }
+    ]
+},
+
+{"id":"1012",
+"category": "Lunch",
+"title":"Easy Vegetable Fried {Rice}",
+"description":"Skip the wait for take-out, and make this Easy Vegetable Stir Fried Rice instead! It uses up a mess of vegetables along with leftover rice and some eggs for protein, and it's ready in a half an hour",
+"preporation_time": "30",
+"serving": "4",
+"image":"url 2",
+"owner": "6494f67d5f2bc0eec97b9adf",
+    "ingredients": [
+        {
+            "ingredient": "vegetable oil, divided",
+            "quantity": "3 tablespoons"
+        },
+        {
+            "ingredient": "broccoli crowns and stems",
+            "quantity": "1 cup"
+        },
+        {
+            "ingredient": "chopped carrots",
+            "quantity": "1 cup"
+        },
+        {
+            "ingredient": "shredded cabbage",
+            "quantity": "1 cup"
+        },
+        {
+            "ingredient": "diced zucchini",
+            "quantity": "1 cup"
+        },
+        {
+            "ingredient": "thinly sliced bell pepper, cut into 1-inch pieces",
+            "quantity": "1/2 cup"
+        },
+        {
+            "ingredient": "frozen shelled edamame or peas",
+            "quantity": "1 cup"
+        },
+        {
+            "ingredient": "large eggs, beaten",
+            "quantity": "3"
+        },
+        {
+            "ingredient": "salt and freshly ground pepper",
+            "quantity": "to taste"
+        },
+        {
+            "ingredient": "cooked and cooled white or brown rice",
+            "quantity": "3 cups"
+        },
+        {
+            "ingredient": "peeled and minced fresh ginger",
+            "quantity": "1 tablespoon"
+        },
+        {
+            "ingredient": "finely minced garlic",
+            "quantity": "2 teaspoons"
+        },
+        {
+            "ingredient": "low-sodium soy sauce, plus more for serving",
+            "quantity": "1/4 cup"
+        },
+        {
+            "ingredient": "sesame oil, regular or spicy",
+            "quantity": "1 tablespoon"
+        },
+        {
+            "ingredient": "thinly sliced scallions, white and light green parts, plus more for garnish",
+            "quantity": "1/2 cup"
+        }
+    ]
+}
+]
+}
+
+
+
+

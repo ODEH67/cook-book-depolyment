@@ -1,0 +1,354 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header-click {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 0.1em;
+}
+
+#tip-bottun {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.959);
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.header-menu-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.868);
+    border-radius: 0.5em; 
+    padding: 2em 0em 1em;
+    border-bottom:0.4em solid rgb(0, 216, 184);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    }
+
+header {
+    background-image: url(../img/Header/header\ background55.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+    color: rgb(0, 0, 0);
+    max-height: auto;
+
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    gap: 5em; 
+}
+
+#header-menu-logo {
+    margin-left: -70vw;
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+
+}
+
+#logo {
+    width: 8em;
+    height: 8em;
+    margin-top: 1em;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+
+.title-text {
+    max-width: 40em;
+    padding: 0.7em 0.5em 0.7em;
+    /* font-family: ; */
+    text-align: center;
+    line-height: 1.3em;
+    background-color: rgba(240, 248, 255, 0.865);
+    border-radius: 1em ;
+    font-size: 1.7em;
+    margin: 0em 1em;
+}
+
+#white-text {
+    color: rgb(0, 0, 0);
+    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+
+#lazy {
+    color: rgb(0, 188, 172);
+}
+
+#h1-head {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.941);
+    font-size: 3em;
+    font-weight: bold;
+    background-color: rgba(240, 248, 255, 0.865);
+    border-radius: 0.8em ;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu-button {
+    display: none;
+}
+
+label[for="menu-button"] {
+display: none;
+}
+
+label[for="menu-button"] span{
+    font-size: 2em;
+}
+
+#title-underline {
+    color: rgba(240, 248, 255, 0);
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#header-button {
+    padding: 0.7em 0.9em;
+    border: 1.4px solid;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: rgba(18, 201, 174, 0.91);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#header-click:hover {
+    color: rgb(6, 153, 141);
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 180ms;
+}
+
+/* .header-menu:hover {
+    transform: scale(1.1);
+    transition: 180ms;
+} */
+
+#header-button:hover, #tip-bottun:hover {
+    color: rgb(4, 45, 42);
+    border-color: rgb(255, 255, 254);
+    cursor: pointer;
+    transition: 180ms;
+    transform: scale(1.1);
+}
+
+
+#header-click:active {
+    color: rgba(3, 88, 84, 0.941);
+    border-color: rgba(10, 171, 155, 0.886);
+    transition: 100ms;
+    /* background-color: rgba(255, 255, 255, 0.059); */
+}
+
+#header-button:active, #tip-bottun:active {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 100ms;
+    transform: scale(1);
+    background-color: rgb(2, 110, 94);
+}
+
+#header-click::before {
+    content: '';
+    position: absolute;
+    visibility: hidden;
+    top: 1.3em;
+    left: 0.25em;
+    height: 0.2em;
+    width: 0%;
+    transition: 200ms ease-in-out;
+    background-color: rgb(8, 187, 172);
+}
+
+#header-click:hover::before {
+    visibility: visible;
+    width: 85%;
+}
+
+/* cook_book_header_honme_underline_marker */
+
+.home-head::after {
+    content: '';
+    position: absolute;
+    visibility:visible;
+    top: 1.3em;
+    left: 0.25em;
+    height: 0.2em;
+    width: 85%;
+    background-color: rgba(16, 16, 16, 0.769);
+}
+
+/* .................................................................*/
+
+.button-div {
+    padding: 3em 0 2em;
+}
+
+@media (max-width: 1350px) {
+    #header-menu-logo {
+        margin-left: -70em;
+        }
+
+        #h1-head {
+            font-size: 2.5em;
+        }
+}
+
+@media (max-width: 1088px) {
+
+    .header-menu {
+        display:none;
+        flex-direction: column;
+        gap: 2vw;
+        font-size: 1em;
+        padding: 1em 0em;
+        }
+
+    .header-text {
+        padding-top: 3em;
+        }
+
+    #menu-button:checked ~ .header-menu {
+        display:flex;
+    }
+
+    label[for="menu-button"] {
+        display: block;
+        color: rgba(8, 187, 160, 0.91);
+        cursor: pointer;
+    }
+
+    #nav-header {
+        position: absolute;
+        top: 1.1em;
+        right: 1.1em;
+        background: rgb(255, 255, 255);
+        padding: 0.2em 0.5em;
+        border: 5px solid rgba(8, 192, 164, 0.91);
+        border-radius: 0.7em;
+    }
+
+    .header-menu-box {
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        padding: 0;
+        background-color: transparent;
+        border-radius: 0em;
+        border: 0;
+        }
+
+        #header-menu-logo {
+            margin-left: 0em;
+            display:flex;
+            flex-direction: row;
+            position: relative;
+        }
+
+        #logo {
+            margin-top: 0;
+            width: 7em;
+            height: 7em;
+        }
+
+    #header-click {
+        color: rgb(0, 0, 0);
+        font-size: 1.3em;
+        }
+
+    #h1-head{
+        font-size: 2em;
+    }
+
+    .title-text {
+        font-size: 1.3em;
+    }
+
+    #tip-bottun {
+        font-size: 1.2em;
+    }
+
+    #header-click:hover, label[for="menu-button"]:hover {
+        color: rgb(4, 186, 171);
+
+        transition: 180ms;
+    }
+    
+    #header-click:active, label[for="menu-button"]:active {
+        color: rgb(2, 105, 97);
+        transition: 120ms;
+    }
+
+    }
+
+    @media (max-width: 700px) {
+
+        #header-button {
+            font-size: 0.75em;
+        }
+
+        .title-text {
+            margin: 0;
+        }
+
+        /* header {
+            font-size: 2vw;
+        }
+
+        .header-text {
+            padding-top: 10vw;
+            padding-bottom: 1vw;
+        }
+
+        #nav-header {
+            padding: 0.5vw;
+        } */
+
+        .header-menu-box {
+            justify-content:center;
+        }
+    }
+
+    @media (max-width: 365px) {
+
+        .title-text {
+            margin: 0;
+        }
+
+        header {
+            font-size: 4.5vw;
+        }
+
+        .header-text {
+            padding-top: 16vw;
+            padding-bottom: 7vw;
+        }
+
+        #nav-header {
+            padding: 1vw;
+        }
+        }

@@ -1,0 +1,20 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* change underneath this comment for each page using class name */
+
+.dinner-head::after {
+    content: '';
+    position: absolute;
+    visibility:visible;
+    top: 1.3em;
+    left: 0.25em;
+    height: 0.2em;
+    width: 85%;
+    background-color: rgb(255, 71, 15);
+}
+
+/* .................................................................*/

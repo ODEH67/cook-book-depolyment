@@ -1,0 +1,292 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Ingredients-header-click {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 0.1em;
+}
+
+
+.Ingredients-header-menu-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.778);
+    border-radius: 0.5em; 
+    padding: 2em 0em 1em;
+    border-bottom:0.4em solid rgb(0, 216, 184);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    }
+
+    .Ingredients-Header {
+    background-image: url(../img/Header/pasta11.jpg);
+    background-color:rgba(205, 220, 229, 0.607);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+    color: rgb(0, 0, 0);
+    max-height: auto;
+
+}
+
+.Ingredients-header-menu {
+    display: flex;
+    list-style: none;
+    gap: 5em; 
+}
+
+#Ingredients-header-menu-logo {
+    margin-left: -70vw;
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+
+}
+
+#Ingredients-logo {
+    width: 8em;
+    height: 8em;
+    margin-top: 1em;
+}
+
+.ingredients-header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+
+.Ingredients-title-text {
+    max-width: 40em;
+    padding: 0.7em 0.5em 0.7em;
+    text-align: center;
+    line-height: 1.3em;
+    background-color: rgba(240, 248, 255, 0.865);
+    border-radius: 1em ;
+    font-size: 1.7em;
+    margin: 0em 1em;
+}
+
+#Ingredients-white-text {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+
+#Ingredients-lazy {
+    color: rgb(4, 181, 154);
+}
+
+#Ingredients-h1-head {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.941);
+    font-size: 3em;
+    font-weight: bold;
+    background-color: rgba(240, 248, 255, 0.865);
+    border-radius: 0.8em ;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Ingredients-menu-button {
+    display: none;
+}
+
+label[for="Ingredients-menu-button"] {
+display: none;
+}
+
+label[for="Ingredients-menu-button"] span{
+    font-size: 2em;
+}
+
+#Ingredients-title-underline {
+    color: rgba(240, 248, 255, 0);
+    background-color: rgba(240, 248, 255, 0);
+}
+
+
+#Ingredients-header-click:hover {
+    color: rgb(4, 181, 154);
+    border-color: rgb(4, 181, 154);
+    cursor: pointer;
+    transition: 180ms;
+}
+
+#Ingredients-header-click:active {
+    color: rgb(4, 181, 154);
+    border-color: rgb(4, 181, 154);
+    transition: 120ms;
+    transform: scale(1.1);
+}
+
+#Ingredients-header-button:active, #Ingredients-tip-bottun:active {
+    color: rgb(255, 248, 240);
+    border-color: rgb(247, 240, 233);
+    cursor: pointer;
+    transition: 100ms;
+    transform: scale(1);
+    background-color: rgb(4, 181, 154);
+}
+
+#Ingredients-header-click::before {
+    content: '';
+    position: absolute;
+    visibility: hidden;
+    top: 1.3em;
+    left: 0.25em;
+    height: 0.2em;
+    width: 0%;
+    transition: 200ms ease-in-out;
+    background-color: rgb(4, 181, 154);
+}
+
+
+#Ingredients-header-click:hover::before {
+    visibility: visible;
+    width: 85%;
+}
+
+
+
+@media (max-width: 1350px) {
+    #Ingredients-header-menu-logo {
+        margin-left: -70em;
+        }
+
+        #Ingredients-h1-head {
+            font-size: 2.5em;
+        }
+
+}
+
+@media (max-width: 1088px) {
+
+    .Ingredients-header-menu {
+        display:none;
+        flex-direction: column;
+        gap: 2vw;
+        font-size: 1em;
+        padding: 1em 0em;
+        }
+
+    .ingredients-header-text {
+        padding-top: 3em;
+        }
+
+    #Ingredients-menu-button:checked ~ .Ingredients-header-menu {
+        display:flex;
+    }
+
+    label[for="Ingredients-menu-button"] {
+        display: block;
+        color: rgb(4, 173, 148);
+        cursor: pointer;
+    }
+
+    #Ingredients-nav-header {
+        position: absolute;
+        top: 1.1em;
+        right: 1.1em;
+        background: rgb(255, 255, 255);
+        padding: 0.2em 0.5em;
+        border: 5px solid rgb(4, 181, 154);
+        border-radius: 0.7em;
+    }
+
+    .Ingredients-header-menu-box {
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        padding: 0;
+        background-color: transparent;
+        border-radius: 0em;
+        border: 0;
+        }
+
+        #Ingredients-header-menu-logo {
+            margin-left: 0em;
+            display:flex;
+            flex-direction: row;
+            position: relative;
+        }
+
+        #Ingredients-logo {
+            margin-top: 0;
+            width: 7em;
+            height: 7em;
+        }
+
+    #Ingredients-header-click {
+        color: rgb(0, 0, 0);
+        font-size: 1.3em;
+        }
+
+    #Ingredients-h1-head{
+        font-size: 2em;
+    }
+
+    .Ingredients-title-text {
+        font-size: 1.3em;
+    }
+
+    #Ingredientstip-bottun {
+        font-size: 1.2em;
+    }
+
+    #Ingredients-header-click:hover, label[for="Ingredients-menu-button"]:hover {
+        color: rgb(0, 0, 0);
+
+        transition: 180ms;
+    }
+    
+    #Ingredients-header-click:active, label[for="Ingredients-menu-button"]:active {
+        color: rgb(4, 181, 154);
+        transition: 120ms;
+    }
+
+    }
+
+    @media (max-width: 700px) {
+
+        .Ingredients-title-text {
+            margin: 0;
+        }
+
+
+        .Ingredients-header-menu-box {
+            justify-content:center;
+        }
+    }
+
+    @media (max-width: 350px) {
+
+        .Ingredients-title-text {
+            margin: 0;
+        }
+
+        .Ingredients-Header {
+            font-size: 4.5vw;
+        }
+
+        .ingredients-header-text {
+            padding-top: 16vw;
+            padding-bottom: 7vw;
+        }
+
+        #Ingredients-nav-header {
+            padding: 1vw;
+        }
+        }

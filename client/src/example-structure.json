@@ -1,0 +1,64 @@
+{"Areas":[
+    {"id":"1011",
+    "Area_Nr": "93-26",
+    "Town":"Emst",
+    "City":"Hagen",
+    "Postal_Code": "58093",
+    "State": "NRW",
+    "Postman":"Musterman",
+    "Map":"url 1",
+    "Houses":[
+                {
+                "Coordinations":{
+                                "lang": 51.355620,
+                                "alt":7.509109
+                                },
+                "Package": true,
+                "image" :"url 1",
+                "street": "Am Großen Feld",
+                "Street_Nr": 2
+                },
+                {
+                "Coordinations":{
+                                "lang": 51.355620,
+                                "alt":7.509109
+                                },
+                "Package": true,
+                "image" :"url 2",
+                "street": "Am Großen Feld",
+                "Street_Nr": 4
+                }
+            ]
+        },
+    {"id":"1011",
+    "Area_Nr": "93-28",
+    "Town":"Emst",
+    "City":"Hagen",
+    "Postal_Code": "58093",
+    "State": "NRW",
+    "Map":"url 2",
+    "Houses":[
+                {
+                "Coordinations":{
+                                "lang": 7.501344,
+                                "alt":51.355142
+                                },
+                "Package": true,
+                "image" :"url 1",
+                "street": "Winkelstück",
+                "Street_Nr": 2
+                },
+                {
+                "Coordinations":{
+                                "lang": 7.501344,
+                                "alt":51.355142
+                                },
+                "Package": true,
+                "image" :"url 100",
+                "street": "Winkelstück",
+                "Street_Nr": 4
+                }
+            ]
+        }
+    ]
+}
