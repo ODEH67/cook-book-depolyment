@@ -9,7 +9,7 @@ import DeleteRecipe from "./deleteRecipe";
 
 
 
-export default function Recipe({setIsDeleted,setLoading,recipes,loading}) {
+export default function Recipe({user, setIsDeleted,setLoading,recipes,loading}) {
 
     // console.log("loading ingredient",loading)
     // console.log("finalRecipe ingredient",recipes)
@@ -44,11 +44,15 @@ export default function Recipe({setIsDeleted,setLoading,recipes,loading}) {
 <GradientHeader recipe={recipe} />
 <main className="recipe">
     <div className="edit-del-recipe-page">
+
+        {recipe.owner._id == user && (
         <NavLink to={`/edit/${recipe._id}`}>
             <span className="del-edit-span"><FaEdit/></span>
         </NavLink>
+        )}
+
         <NavLink to={`/`}>
-        <DeleteRecipe setIsDeleted={setIsDeleted} recipeID={recipe._id}/>
+        <DeleteRecipe user={user} setIsDeleted={setIsDeleted} item={recipe}/>
         </NavLink>
     </div>
         <img className="recipe-image" src={recipe.image} alt=""/>

@@ -20,7 +20,7 @@ function App() {
   const [isDeleted, setIsDeleted] = useState(false);
   const [isAdded, setIsAdded] = useState(false);
   const [editClicked, setEditClicked] = useState(false);
-  const [user, setUser] = useState("6494f67d5f2bc0eec97b9adf")
+  const [user, setUser] = useState("65c3a5b41713d10ba13d9ef4")
 
   useEffect(() => {
     const fetchData = async () => {
@@ -55,9 +55,9 @@ function App() {
   <div className="App">
         <div className='main-div'>
           <Routes>
-            <Route  path="/" element={<MainPage setIsDeleted={setIsDeleted} loading ={loading} recipes ={recipes} />} />
+            <Route  path="/" element={<MainPage user={user} setIsDeleted={setIsDeleted} loading ={loading} recipes ={recipes} />} />
             <Route  path="/add" element={<AddingRecipe user={user} setIsAdded={setIsAdded} loading ={loading} recipes ={recipes} />} />
-            <Route  path="/recipe/:postId" element={<Recipe setIsDeleted={setIsDeleted} loading ={loading} setLoading ={setLoading} recipes ={recipes} />} />
+            <Route  path="/recipe/:postId" element={<Recipe user={user} setIsDeleted={setIsDeleted} loading ={loading} setLoading ={setLoading} recipes ={recipes} />} />
             <Route  path="/edit/:postId" element={<Editrecipe user={user} editClicked={editClicked} setEditClicked={setEditClicked} setIsAdded={setIsAdded} loading ={loading} setLoading ={setLoading} recipes ={recipes} />} />
             <Route  path="*"
             element={

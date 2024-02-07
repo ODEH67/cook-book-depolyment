@@ -9,7 +9,7 @@ import {useState,useEffect} from "react";
 import { FaEdit } from 'react-icons/fa'
 
 
-export default function FilteredRecipes({recipes,loading,setIsDeleted}) {
+export default function FilteredRecipes({user, recipes,loading,setIsDeleted}) {
 
     const [FilteredRecipes,setFilteredRecipes] = useState(recipes);
     const [selectedCategory,setSelectedCategory] = useState("All");
@@ -50,10 +50,14 @@ export default function FilteredRecipes({recipes,loading,setIsDeleted}) {
         return (
         <div className="catalogue-item" key={item._id} >
             <div className="times-container">
+
+            {item.owner._id == user && (
             <NavLink to={`/edit/${item._id}`}>
             <span className="del-edit-span"><FaEdit/></span>
             </NavLink>
-            <DeleteRecipe setIsDeleted={setIsDeleted} recipeID={item._id}/>
+            )}
+
+            <DeleteRecipe user={user} setIsDeleted={setIsDeleted} item={item}/>
             </div>
             <NavLink to={`/recipe/${item._id}`}>
                 <img className="food" src={item.image} alt="logo"/>
